@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    width: 100% ;
+    height:40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2d2928;
+}
+.nav span{
+    height: 15px;
+    width: 2px;
+    margin-left: 10px;
+    position:relative;
+    bottom: -3px;
+    background-color: white;
+}
+nav{
+    height: 20px;
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+    font-size:12pt;
+    align-items: center;
+}
+
+.nav nav:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.nav svg{
+    position:relative;
+    left: 250px;
+}
+.nav input{
+position: relative;
+top: -8px;
+left: 430px;
+border: 1px solid transparent;
+width: 170px;
+height: 20px;
+border-radius: 8px;
+z-index: 1;
+padding-left:5px ;
+}
+.title{
+    height: 130px;
+    width: 100%;
+    padding: 20px;
+}
+.title h1{
+    font-weight: 250;
+    font-size: 36pt;
+    font-family: smooth;
+}
+.title h4{
+    font-size:12pt;
+    font-weight: 100;
+    color: gray;
+}
+.title img{
+    width:468px;
+    height: 60px;
+    position: relative;
+    bottom: 60px;
+    left: 490px;
+    border-radius: 8px;
+}
+.contant{
+    display: flex;
+    width: 100%;
+    border-bottom : 5px rgba(57, 56, 56, 0.418) double ;
+    border-top : 4px rgba(57, 56, 56, 0.418) double ;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contant .nav2{
+    color: black;
+    height: 18px;
+    text-align: center;
+    font-size: 12pt;
+    font-weight:300;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 10px;
+
+}
+.contant .nav2:hover{
+    color: rgb(200, 218, 38);
+    cursor:pointer;
+    font-weight: bold;
+}
+.contant span{
+    height: 15px;
+    width: 2px;
+    margin-left: 10px;
+    position:relative;
+    bottom: -3px;
+    border-right: 2px solid black;
+}
+.intro{
+    width: 100%;
+    margin-top:40px;
+    height: 55vh;
+}
+.intro img{
+    width:560px;
+    height:330px;
+    margin-right:20px;
+    padding-left: 40px;
+}
+.intro .int{
+    width: 400px;
+    height: 330px;
+    position: relative;
+    bottom: 330px;
+    left: 560px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.intro .int h1{
+    font-size: 56px;
+    color: gray;
+    font-weight: 50;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro .int p{
+    font-size: 16px;
+    line-height: 15px;
+    padding-left: 55px;
+    padding-top: 15px;
+    color: #666666;
+    font-weight:lighter;
+}
+.intro .int a{
+    color: #ff9900;
+    font-size: 16px;
+    padding-left: 55px;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+}
+.coulmen{
+    display: grid;
+    grid-template-columns: 31.3% 31.3% 31.3%;
+    height: 165vh;
+}
+.coulmen .cul-1,
+.coulmen .cul-2,
+.coulmen .cul-3,
+.coulmen .cul-4,
+.coulmen .cul-5,
+.coulmen .cul-6{
+    padding-top: 15px;
+    margin-left: 25px;
+    width: 300px;
+}
+.coulmen .cul-1 .e,
+.coulmen .cul-2 .e,
+.coulmen .cul-3 .e,
+.coulmen .cul-4 .e,
+.coulmen .cul-5 .e,
+.coulmen .cul-6 .e{
+    font-size: 20px;
+}
+.coulmen hr{
+    margin-top: 10px;
+}
+.coulmen .cul-1 .asd,
+.coulmen .cul-2 .asd,
+.coulmen .cul-3 .asd,
+.coulmen .cul-4 .asd,
+.coulmen .cul-5 .asd,
+.coulmen .cul-6 .asd{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.coulmen .cul-1 a,
+.coulmen .cul-2 a,
+.coulmen .cul-3 a,
+.coulmen .cul-4 a,
+.coulmen .cul-5 a,
+.coulmen .cul-6 a{
+    color: #ff9900;
+    text-decoration: none;
+}
+.coulmen .cul-5{
+    position:relative;
+    bottom:60px;
+}
+.coulmen .cul-6{
+    position: relative;
+    bottom: 160px;
+}
+.coulmen .cul-1 img{
+    width: 290px;
+    height: 390px;
+    border: 1px solid rgb(127, 122, 122);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.coulmen .cul-2 img{
+    width: 280px;
+    height: 320px;
+    border: 1px solid rgb(127, 122, 122);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.coulmen .cul-3 img{
+    width: 280px;
+    height: 220px;
+    border: 1px solid rgb(127, 122, 122);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.coulmen .cul-4 img{
+    width: 280px;
+    height: 340px;
+    border: 1px solid rgb(127, 122, 122);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.coulmen .cul-5 img{
+    width: 280px;
+    height: 380px;
+    border: 1px solid rgb(127, 122, 122);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.coulmen .cul-6 img{
+    width: 280px;
+    height: 530px;
+    border: 1px solid rgb(127, 122, 122);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+footer{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:188px 188px 188px 188px 188px;
+}
+footer .fotter{
+    margin-right: 15px;
+}
+footer .fotter p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #666666;
+    border-bottom:1px solid black ;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+footer .fotter a{
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 20px;
+}
+.div{
+    background-color: #2d2928;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.div h1{
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 15px;
+    color: #666666;
+}.div h4{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    padding-top: 15px;
+    padding-left: 250px;
+}
